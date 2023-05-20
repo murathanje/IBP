@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H4</title>
+</head>
+<body>
+    <form action="/submit-form" method="POST">
+        <label for="name">Adınız:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">E-posta adresiniz:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+    <br><br>
+    <form action="/submit-form" method="GET">
+        <label for="name">Adınız:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">E-posta adresiniz:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(10, 10, 50, 50);
+    </script>
+
+
+</body>
+</html>

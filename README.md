@@ -1,2 +1,2 @@
 # IBP
-IBP Project is in this repo [IBP Ticket Project](https://github.com/murathanje/IBP_Project)
+This repo is for homewrok.IBP PROJECT IS IN THIS REPO[IBP Ticket Project](https://github.com/murathanje/IBP_Project)
